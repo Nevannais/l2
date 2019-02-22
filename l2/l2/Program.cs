@@ -16,7 +16,6 @@ namespace l2
             ConsoleKeyInfo Key = Console.ReadKey();
             char ch = Key.KeyChar;
 
-
             if (ch == '-')
                 Console.WriteLine("{0}", a - b);
 
@@ -27,6 +26,10 @@ namespace l2
             if (ch == '+')
                 Console.WriteLine("{0}", a+b);
 
+            if (ch == '/')
+                Console.WriteLine("{0}", a / b);
+
+            Console.ReadKey();
             Console.ReadKey();
         }
     }
