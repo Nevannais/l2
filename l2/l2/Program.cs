@@ -16,7 +16,9 @@ namespace l2
             ConsoleKeyInfo Key = Console.ReadKey();
             char ch = Key.KeyChar;
 
-            
+
+            if (ch == '+')
+                Console.WriteLine("{0}", a+b);
 
             Console.ReadKey();
         }
